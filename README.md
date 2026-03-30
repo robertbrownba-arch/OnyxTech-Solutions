@@ -350,7 +350,6 @@ body::after {
 <section id="booking" class="container">
   <h2>Book a Service</h2>
   <form action="https://formsubmit.co/robert@onyxtechsolutions.info" method="POST">
-style="margin-top:30px;">
 
   <!-- Disable captcha -->
   <input type="hidden" name="_captcha" value="false">
