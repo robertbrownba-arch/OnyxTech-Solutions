@@ -349,44 +349,43 @@ body::after {
 <!-- BOOKING -->
 <section id="booking" class="container">
   <h2>Book a Service</h2>
-  <form action="https://formsubmit.co/robert@onyxtechsolutions.info" method="POST">
 
-  <!-- Disable captcha -->
-  <input type="hidden" name="_captcha" value="false">
+  <form id="serviceForm" action="https://formsubmit.co/robert@onyxtechsolutions.info" method="POST" style="margin-top:30px;">
 
-  <!-- Email subject -->
-  <input type="hidden" name="_subject" value="New Service Request - OnyxTech Solutions">
+    <!-- Hidden Config -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Service Request - OnyxTech Solutions">
+    <input type="hidden" name="_autoresponse" value="Thanks for contacting OnyxTech Solutions! We received your request and will get back to you shortly.">
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+    <input type="text" name="_honey" style="display:none">
 
-  <!-- Auto response to customer -->
-  <input type="hidden" name="_autoresponse" value="Thanks for contacting OnyxTech Solutions! We received your request and will get back to you shortly.">
+    <!-- Name -->
+    <input class="form-input" type="text" name="name" placeholder="Full Name" required><br><br>
 
-  <!-- Optional redirect after submit -->
-  <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+    <!-- Email -->
+    <input class="form-input" type="email" name="email" placeholder="Email Address" required><br><br>
 
-  <!-- Name -->
-  <label for="name">Full Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+    <!-- Phone -->
+    <input class="form-input" type="tel" name="phone" placeholder="Phone Number" required><br><br>
 
-  <!-- Email -->
-  <label for="email">Email Address:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+    <!-- Service Type -->
+    <select class="form-input" name="service" required>
+      <option value="">Select Service Needed</option>
+      <option>Computer Repair</option>
+      <option>Virus Removal</option>
+      <option>Network Setup</option>
+      <option>Hard Drive Recovery</option>
+      <option>POS System Service</option>
+    </select><br><br>
 
-  <!-- Phone -->
-  <label for="phone">Phone Number:</label><br>
-  <input type="tel" id="phone" name="phone" required><br><br>
+    <!-- Message -->
+    <textarea class="form-input" name="message" rows="5" placeholder="Describe the issue..." required></textarea><br><br>
 
-  <!-- Problem Description -->
-  <label for="message">Describe the Problem:</label><br>
-  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    <!-- Submit -->
+    <button class="support-btn" type="submit">Request Service</button>
 
-  <!-- Spam protection -->
-  <input type="text" name="_honey" style="display:none">
+  </form>
 
-  <!-- Submit -->
-  <button type="submit">Request Service</button>
-
-</form>
-  
 </section>
 
 <!-- REMOTE SUPPORT -->
