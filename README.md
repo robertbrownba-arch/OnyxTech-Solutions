@@ -350,6 +350,7 @@ body::after {
 <section id="booking" class="container">
   <h2>Book a Service</h2>
   <form action="https://formsubmit.co/robert@onyxtechsolutions.info" method="POST">
+style="margin-top:30px;">
 
   <!-- Disable captcha -->
   <input type="hidden" name="_captcha" value="false">
@@ -407,7 +408,7 @@ body::after {
 <!-- MAP -->
 <section class="container">
   <h2>Service Location</h2>
-  <iframe src="[google.com](https://www.google.com/maps?q=Waterbury+Connecticut&output=embed)"
+  <iframe src="[google.com](https://www.google.com/maps?q=Waterbury+Connecticut & output=embed)"
   width="100%" height="350" style="border:0;" loading="lazy"></iframe>
 </section>
 
