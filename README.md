@@ -391,12 +391,7 @@ style="margin-top:30px;">
 </section>
 
 <!-- REMOTE SUPPORT -->
-<section id="remote" class="container">
-  <h2>Remote Support</h2>
-  <a href="[download.teamviewer.com](https://download.teamviewer.com/download/TeamViewerQS.exe)">
-    <button class="support-btn">TeamViewer</button></a>
-  <a href="[anydesk.com](https://anydesk.com/en/downloads)">
-    <button class="support-btn">AnyDesk</button></a>
+
 </section>
 
 <!-- SERVICE AREAS -->
