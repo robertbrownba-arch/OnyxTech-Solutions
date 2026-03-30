@@ -401,8 +401,7 @@ style="margin-top:30px;">
 </section>
 
 <!-- MAP -->
->
-</section>
+
 
 <!-- CONTACT -->
 <section id="contact" class="container">
