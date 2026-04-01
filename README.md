@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Computer Repair Waterbury CT | OnyxTech Solutions</title>
-<meta name="description" content="OnyxTech Solutions provides computer repair, networking, POS systems, and virus removal in Waterbury CT and surrounding areas.">
+<meta name="description" content="OnyxTech Solutions provides computer repair, networking, POS systems, virus removal, and IT services in Waterbury CT and surrounding areas.">
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 
@@ -28,8 +28,8 @@ body::before {
   width: 200%;
   height: 200%;
   background-image:
-    linear-gradient(rgba(0,255,255,0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,255,255,0.08) 1px, transparent 1px);
+    linear-gradient(rgba(0,255,255,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,0.1) 1px, transparent 1px);
   background-size: 60px 60px;
   animation: moveBG 30s linear infinite;
   z-index: -1;
@@ -44,44 +44,17 @@ body::before {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 15px 30px;
   background: #050814;
   border-bottom: 1px solid #00ffff33;
-  position: relative;
 }
 
-/* GLOW LINE */
-.navbar::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #00ffff, transparent);
-  box-shadow: 0 0 10px #00ffff;
+.logo {
+  font-family: Orbitron;
+  color: #00ffff;
+  font-size: 20px;
 }
 
-/* LOGO */
-.logo img {
-  height: 50px;
-  filter: drop-shadow(0 0 8px #00ffff) drop-shadow(0 0 15px #00ffff55);
-  animation: logoPulse 3s infinite;
-  transition: 0.3s;
-}
-
-.logo img:hover {
-  transform: scale(1.05);
-}
-
-@keyframes logoPulse {
-  0% { filter: drop-shadow(0 0 5px #00ffff); }
-  50% { filter: drop-shadow(0 0 20px #00ffff); }
-  100% { filter: drop-shadow(0 0 5px #00ffff); }
-}
-
-/* NAV LINKS */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -107,6 +80,7 @@ body::before {
 .section h2 {
   font-family: Orbitron;
   color: #00ffff;
+  margin-bottom: 20px;
 }
 
 /* HERO */
@@ -119,8 +93,8 @@ body::before {
   background: #00ffff;
   color: black;
   padding: 12px 25px;
-  text-decoration: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 /* GRID */
@@ -138,7 +112,7 @@ body::before {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #00ffff22;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .card:hover {
@@ -185,9 +159,7 @@ iframe {
 
 <!-- NAV -->
 <nav class="navbar">
-  <div class="logo">
-    <img src="logo.png" alt="OnyxTech Solutions Logo">
-  </div>
+  <div class="logo">ONYXTECH</div>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
     <li><a href="#booking">Book</a></li>
@@ -197,10 +169,14 @@ iframe {
 
 <!-- HERO -->
 <section class="section hero">
-  <h1>OnyxTech Solutions L.L.C.</h1>
-  <p>Professional Computer Repair & IT Services in Waterbury CT</p>
+  <h1>Computer Repair & IT Services</h1>
+  <p>Serving Waterbury CT & surrounding areas</p>
 
-  <p>Network+ • Security+ • BBB Accredited</p>
+  <div>
+    <span>Network+</span> •
+    <span>Security+</span> •
+    <span>BBB Member</span>
+  </div>
 
   <br>
   <a href="#booking" class="hero-btn">Book Service</a>
@@ -269,6 +245,7 @@ iframe {
   <h2>Book Service</h2>
 
   <form action="https://formsubmit.co/robert@onyxtechsolutions.info" method="POST">
+
     <input type="hidden" name="_captcha" value="false">
 
     <input type="text" name="name" placeholder="Full Name" required>
@@ -278,6 +255,7 @@ iframe {
     <textarea name="message" placeholder="Describe issue"></textarea>
 
     <button type="submit">Submit</button>
+
   </form>
 </section>
 
@@ -287,7 +265,10 @@ iframe {
 
   <p>Waterbury • Naugatuck • Meriden • Watertown • Oxford • Milford</p>
 
-  <iframe src="https://maps.google.com/maps?q=Waterbury%20CT&z=10&output=embed"></iframe>
+  <iframe 
+    src="https://maps.google.com/maps?q=Waterbury%20CT&t=&z=10&ie=UTF8&iwloc=&output=embed">
+  </iframe>
+
 </section>
 
 <!-- CONTACT -->
@@ -296,6 +277,7 @@ iframe {
 
   <p>📞 203-819-8645</p>
   <p>✉️ robert@onyxtechsolutions.info</p>
+
 </section>
 
 <script>
@@ -308,3 +290,4 @@ function calc(){
 
 </body>
 </html>
+    
