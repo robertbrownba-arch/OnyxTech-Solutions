@@ -276,10 +276,10 @@ OnyxTech Solutions
 </section>
 
 <section>
- <!-- QUOTE -->
+<!-- QUOTE -->
 <section id="quote" class="container">
-  <h2>Instant Quote Calculator</h2>
-  <select id="service" class="support-btn">
+<h2>Instant Quote Calculator</h2>
+<select id="service" class="support-btn">
 <h2>Instant Quote Calculator</h2>
 <select id="service">
 <option value="120">Computer Repair - $120</option>
@@ -291,8 +291,8 @@ OnyxTech Solutions
 <button onclick="calc()">Calculate</button>
 <p id="price"></p>
 </section>
- <button class="support-btn" onclick="calc()">Calculate</button>
-  <p id="price" style="color:#00ffff;font-size:20px;"></p>
+<button class="support-btn" onclick="calc()">Calculate</button>
+<p id="price" style="color:#00ffff;font-size:20px;"></p>
 </section>
 
 <section id="booking">
