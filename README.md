@@ -330,8 +330,8 @@ width="100%" height="350" style="border-radius:10px"></iframe>
 
 <section id="contact">
 <h2>Contact</h2>
-<p>Phone: 203-800-8258</p>
-<p>Email: support@onyxtechsolutions.com</p>
+<p>Phone: 203-819-8645</p>
+<p>Email: robert@onyxtechsolutions.info</p>
 </section>
 
 <footer>
