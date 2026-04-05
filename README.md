@@ -278,17 +278,19 @@ OnyxTech Solutions
 <section>
 <!-- QUOTE -->
 <section id="quote" class="container">
-<h2>Instant Quote Calculator</h2>
-<select id="service" class="support-btn">
- <option value="120">Computer Repair - $120</option>
- <option value="100">Virus Removal - $100</option>
- <option value="200">Network Setup - $200</option>
- <option value="150">Hard Drive Recovery - $150</option>
- <option value="250">POS Repair - $250</option>
+  <h2>Instant Quote Calculator</h2>
+  <select id="service" class="support-btn">
+    <option value="">Select Service</option>
+    <option value="120">Computer Repair - $120</option>
+    <option value="100">Virus Removal - $100</option>
+    <option value="200">Network Setup - $200</option>
+    <option value="150">Hard Drive Recovery - $150</option>
+    <option value="250">POS Repair - $250</option>
+  </select>
+  <button class="support-btn" onclick="calc()">Calculate</button>
+  <p id="price" style="color:#00ffff;font-size:20px;"></p>
 </section>
-<button class="support-btn" onclick="calc()">Calculate</button>
-<p id="price" style="color:#00ffff;font-size:20px;"></p>
-</section>
+
 
 <section id="booking">
 <h2>Book a Service</h2>
