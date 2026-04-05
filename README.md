@@ -318,6 +318,12 @@ OnyxTech Solutions
 </form>
 </section>
 
+<!-- SERVICE AREAS -->
+<section id="areas" class="container">
+  <h2>Service Areas</h2>
+  <p>Waterbury • Southbury • Naugatuck • Meriden • Watertown • Oxford • Milford</p>
+</section>
+
 <section id="portal">
 <h2>Remote Support</h2>
 <p>If a technician requested remote support download below.</p>
@@ -336,6 +342,7 @@ width="100%" height="350" style="border-radius:10px"></iframe>
 <h2>Contact</h2>
 <p>Phone: 203-819-8645</p>
 <p>Email: robert@onyxtechsolutions.info</p>
+<p>Serving Waterbury, Milford and surrounding Connecticut areas.</p>
 </section>
 
 <footer>
