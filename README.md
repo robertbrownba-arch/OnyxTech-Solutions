@@ -287,6 +287,9 @@ OnyxTech Solutions
 <button onclick="calc()">Calculate</button>
 <p id="price"></p>
 </section>
+ <button class="support-btn" onclick="calc()">Calculate</button>
+  <p id="price" style="color:#00ffff;font-size:20px;"></p>
+</section>
 
 <section id="booking">
 <h2>Book a Service</h2>
