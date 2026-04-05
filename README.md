@@ -291,7 +291,7 @@ OnyxTech Solutions
   <p id="price" style="color:#00ffff;font-size:20px;"></p>
 </section>
 
-
+</section>
 <section id="booking">
 <h2>Book a Service</h2>
 
