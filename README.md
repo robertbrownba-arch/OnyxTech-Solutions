@@ -318,6 +318,8 @@ OnyxTech Solutions
 </form>
 </section>
 
+</section>
+
 <!-- SERVICE AREAS -->
 <section id="areas" class="container">
   <h2>Service Areas</h2>
