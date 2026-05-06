@@ -238,7 +238,7 @@ font-size:28px;
 
 <nav>
 <div class="logo">
-<img src="logo.png">
+<img src="file_00000000f664722fbb9a0fa455cf8ecc.png">
 OnyxTech Solutions
 </div>
 
