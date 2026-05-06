@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <section>
+  <img src="images/onyx-hero-bg.png" class="feature-image">
+</section>
 
 
 <meta charset="UTF-8">
@@ -253,9 +256,7 @@ OnyxTech Solutions
 <button onclick="scrollToBooking()">Book Service</button>
 </section>
 
-<section>
-  <img src="images/onyx-hero-bg.png" class="feature-image">
-</section>
+
 
 <section>
 <h2>Certifications & Memberships</h2>
