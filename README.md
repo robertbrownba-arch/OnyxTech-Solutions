@@ -224,7 +224,7 @@ font-size:28px;
 }
 
 </style>
-</head>
+
 
 <body>
 
